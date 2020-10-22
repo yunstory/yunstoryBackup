@@ -215,6 +215,18 @@ public class test004 {
 		
 		
 		//9번
+//		int count=0;
+//		
+//		for(int i=1; i<=5; i++) {
+//			System.out.print("점수입력 : ");
+//			int score=Integer.parseInt(sc.nextLine());
+//			
+//			if(score<=60) {
+//				count++;
+//			}
+//		}
+//		System.out.println("탈락자 : " + count);
+		
 		//쌤풀이
 		
 //		int failCount=0; //탈락자 수
@@ -233,7 +245,16 @@ public class test004 {
 //		System.out.println(failCount);
 		
 		
-		//10번
+		//10번		
+//		int sum=0;
+//		for(int i=1; i<=100; i++) {
+//			sum += i;
+//			if(sum>100) {
+//				break;
+//			}
+//			System.out.println(i+":"+sum);
+//		}
+		
 		//쌤풀이
 //		int sum=0;
 //		for(int i=0; sum<100; i++) {
@@ -257,7 +278,7 @@ public class test004 {
 //		
 //		int i=0;
 //		
-//		while(i<a) {
+//		while(i<=a) {
 //			System.out.println(b);
 //			i++;
 //		}
@@ -266,30 +287,37 @@ public class test004 {
 		
 		
 		//12번
-		System.out.print("숫자입력");
-		int a = Integer.parseInt(sc.nextLine());
-		System.out.print("숫자입력");
-		int b = Integer.parseInt(sc.nextLine());
-		int sum=0;
-		if(a>=b) {
-			int i=b+1;
-			while(i>b && i<a) {
-				sum += i;
-				i++;
-			}
-		}else {
-			int i=a+1;
-			while(i>a && i<b) {
-				sum += i;
-				i++;
-			}
-		}
-		System.out.println("두수의 합:" + sum);
-
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		int sum=0;
+//
+//		if(a>b) {
+//			int temp = a;
+//			a = b; 
+//			b = temp;
+//		}
+//		for(int i=a+1; i<b; i++) {
+//			sum += i;
+//
+//		}
+//		System.out.println("두 수 사이의 합 : " + sum);
 		
 		
 		//13번
-		
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		
+//		for(;;) {
+//		if(a%2==1) {
+//			System.out.println("소수");
+//			break;
+//		}else {
+//			System.out.println("소수아님");
+//			break;
+//		}
+//		}
 		
 		
 		//14번
@@ -298,12 +326,9 @@ public class test004 {
 //		System.out.print("숫자입력");
 //		int b = Integer.parseInt(sc.nextLine());
 //		
-//		int i,count=0;
-//		
-//		
-//		
-//		for(i=a; i<=count; i++) {
-//			
+//		for(int i=0; i<b; i++) {
+//			System.out.println(a);
+//			a++;
 //		}
 
 
