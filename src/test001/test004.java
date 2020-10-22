@@ -266,25 +266,25 @@ public class test004 {
 		
 		
 		//12번
-//		System.out.print("숫자입력");
-//		int a = Integer.parseInt(sc.nextLine());
-//		System.out.print("숫자입력");
-//		int b = Integer.parseInt(sc.nextLine());
-//		int sum=0;
-//		if(a>=b) {
-//			int i=b+1;
-//			while(i>b && i<a) {
-//				sum += i;
-//				i++;
-//			}
-//		}else {
-//			int i=a+1;
-//			while(i>a && i<b) {
-//				sum += i;
-//				i++;
-//			}
-//		}
-//		System.out.println("두수의 합:" + sum);
+		System.out.print("숫자입력");
+		int a = Integer.parseInt(sc.nextLine());
+		System.out.print("숫자입력");
+		int b = Integer.parseInt(sc.nextLine());
+		int sum=0;
+		if(a>=b) {
+			int i=b+1;
+			while(i>b && i<a) {
+				sum += i;
+				i++;
+			}
+		}else {
+			int i=a+1;
+			while(i>a && i<b) {
+				sum += i;
+				i++;
+			}
+		}
+		System.out.println("두수의 합:" + sum);
 
 		
 		
