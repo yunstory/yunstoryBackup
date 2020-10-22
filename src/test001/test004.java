@@ -37,7 +37,7 @@ public class test004 {
 		
 		
 		
-		//3번 최대공약수 안함
+		//3번 
 //		System.out.print("숫자입력");
 //		int a = Integer.parseInt(sc.nextLine());
 //		System.out.print("숫자입력");
@@ -52,6 +52,49 @@ public class test004 {
 //			}
 //			
 //		}
+		
+		//쌤풀이 
+		
+//		int a=10;
+//		int b=20;
+//		int i=1;
+//		
+//		
+//		for(i=0; i<a; i++) {
+//		if(a%i==0) { // 나눠서 0 이면 약수
+//			System.out.println(i);
+//			}
+//		}
+//		
+//		for(i=0; i<b; i++) {
+//		if(b%i==0) { // 나눠서 0 이면 약수
+//			System.out.println(i);
+//			}
+//		}
+//		
+//		//공약수
+//		
+//		int ab=a<b?a:b; //삼항연산자 ?앞이 true 이면 a: ?앞이  false이면 :b 값이 나옴
+//		for(i=1; i<=ab; i++) {
+//			if(a%i==0 && b%i==0) {
+//				System.out.println(i);
+//			}
+//		}
+//		
+//		
+//		
+//		//제일 큰 값만 나오게 하는 법 마지막 값을 찍으면 됨
+//		
+//		int ab=a<b?a:b; 
+//		int max=1;
+//		for(i=1; i<=ab; i++) {
+//			if(a%i==0 && b%i==0) {
+//				max=i;
+//				System.out.println(i);
+//			}
+//		}
+//		System.out.println(max);
+		
 		
 
 		
@@ -86,23 +129,184 @@ public class test004 {
 		
 		
 		//6번
-		
+//		int count=0, missCount=0, sum=0;
+//		
+//		for(int i=1; i<=3; i++) {
+//			System.out.println("세 번의 숫자입력");
+//			int a=Integer.parseInt(sc.nextLine());
+//			if(1<=a && a<=10) {
+//				count++;
+//				sum += a;
+//			}else {
+//				missCount++;
+//			}
+//		}
+//		System.out.println("잘못입력한 수 : "+missCount+" /올바른입력 수 : "+count+" /올바른 입력 수의 총합 : "+sum);
 
+		
+		
 		//7번
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		int num=0;
+//		
+//		for(int i=a; i<=a*b; i++) {
+//			if(i%a==0 && i%b==0) {
+//				num=i;
+//				break;
+//			}
+//		}
+//		System.out.println("최소 공배수: " + num);
+		
+		//쌤풀이
+//		//2 의 배수구하기 i가 2의 배수인지 판별하면서 i를 증가해보기
+//		int result=0;
+//		for(int i=1; i<100; i++) {
+////			if(i%2==0) {
+////				System.out.println(i);
+////			}
+////			if(i%3==0) {
+////				System.out.println(i);
+////			}
+//			
+////			if(i%2==0||i%3==0) {
+////				System.out.println(i);
+////			}
+//			
+//			if(i%2==0&&i%3==0) {
+//				result=i;
+//				System.out.println(i);
+//				break;
+//			}
+//		}
+//		System.out.println(result);
+		
 		
 		//8번
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int c = Integer.parseInt(sc.nextLine());
+//		
+//		int max,min;
+//		
+//		if (a>b){
+//			max=a;
+//			min=b;
+//		}else {
+//			max=b;
+//			min=a;
+//		}
+//		if(max>c) {
+//			max=max;
+//			min=c;
+//		}else {
+//			max=c;
+//			min=min;
+//		}
+//		
+//		System.out.println("가장 큰 수 는 : " + max + " 가장 작은 수 : " + min);
+
+		
 		
 		//9번
+		//쌤풀이
+		
+//		int failCount=0; //탈락자 수
+//		
+//		for(int i=0; i<5; i++) {
+//			int input = Integer.parseInt(sc.nextLine());
+//			if(input<=100) {
+//				if(input<=60) {
+//					failCount++;
+//				}
+//			}else {
+//				i--;
+//			}
+//			
+//		}
+//		System.out.println(failCount);
+		
 		
 		//10번
+		//쌤풀이
+//		int sum=0;
+//		for(int i=0; sum<100; i++) {
+//			if(sum<100) {
+//				sum += i;
+//				if(sum>100) {
+//					break;
+//				}
+//				System.out.println(i+":"+sum);
+//			}
+//		}
+		
+		
 		
 		//11번
 		
+//		System.out.print("문자열입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		int i=0;
+//		
+//		while(i<a) {
+//			System.out.println(b);
+//			i++;
+//		}
+
+
+		
+		
 		//12번
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		int sum=0;
+//		if(a>=b) {
+//			int i=b+1;
+//			while(i>b && i<a) {
+//				sum += i;
+//				i++;
+//			}
+//		}else {
+//			int i=a+1;
+//			while(i>a && i<b) {
+//				sum += i;
+//				i++;
+//			}
+//		}
+//		System.out.println("두수의 합:" + sum);
+
+		
 		
 		//13번
 		
+		
+		
 		//14번
+//		System.out.print("숫자입력");
+//		int a = Integer.parseInt(sc.nextLine());
+//		System.out.print("숫자입력");
+//		int b = Integer.parseInt(sc.nextLine());
+//		
+//		int i,count=0;
+//		
+//		
+//		
+//		for(i=a; i<=count; i++) {
+//			
+//		}
+
+
 		
 		//15번
 //		System.out.print("1-9 중 선택");
@@ -150,7 +354,7 @@ public class test004 {
 //			}
 //			System.out.println();
 //		}
-		
+//		
 
 		//18번
 		
@@ -183,10 +387,38 @@ public class test004 {
 //			System.out.println();
 //		}
 		
+		//쌤풀이
+//		int count=5;
+//		int lineCount=0;
+//		int total=25;
+////		for(int i=1; i<=25; i++) {
+////			if(i%5==1) {
+////				System.out.print(i+"\t");
+////			}else {
+////				System.out.print(i+"\t");
+////			}
+////			if(i%5==0) {
+////				System.out.println();
+////			}
+////		}
+//		for(int i=1; i<=total+1; i++) {
+//			if(i%count==1) {
+//				lineCount++;
+//			}
+//			if(lineCount%2==0) {
+//				System.out.print(count*lineCount-(i-1)%5+"\t");
+//			}else {
+//				System.out.print(i+"\t");
+//			}
+//			if(i%count==0) {
+//				System.out.println();
+//			}
+//		}
+		
 		
 		//19번
 		
-//		System.out.print("첫 요일 입력 (일~토) : ");
+//		System.out.print("요일 입력 (일~토) : ");
 //		String days=sc.nextLine();
 //		System.out.print("마지막 일 입력 (~31): ");
 //		int last=Integer.parseInt(sc.nextLine());
