@@ -5,6 +5,10 @@ public class test004 {
 	public static void main(String[] args) {
 		java.util.Scanner sc=new java.util.Scanner(System.in);
 		
+		
+		System.out.println("test");
+		
+		
 		//1번
 //		int a = 2;
 //		int b = 1;
@@ -21,7 +25,7 @@ public class test004 {
 //			
 //		}
 //		System.out.println("a 값 : " + a + " b값 : " + b);
-		
+//		
 		//2번 
 
 		
